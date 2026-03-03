@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Library Portal</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f8ff;
+}
+
+/* HEADER */
+.header{
+  background:#0d47a1;
+  color:white;
+  padding:25px;
+  text-align:center;
+}
+
+.header h1{
+  margin:0;
+  font-size:28px;
+}
+
+/* NAVBAR */
+.navbar{
+  background:#1565c0;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:12px;
+}
+
+.navbar a{
+  color:white;
+  text-decoration:none;
+  margin:5px 15px;
+  font-weight:bold;
+  font-size:14px;
+}
+
+.navbar a:hover{
+  text-decoration:underline;
+}
+
+/* CONTAINER */
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:30px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+  text-align:center;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+.card h3{
+  margin-top:0;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:12px;
+  padding:8px 15px;
+  background:#1565c0;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+  font-weight:bold;
+}
+
+.btn:hover{
+  background:#0d47a1;
+}
+
+/* FOOTER */
+.footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:30px;
+}
+
+@media(max-width:600px){
+  .header h1{
+    font-size:22px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>📚 KV MCL JAGANNATH AREA DIGITAL LIBRARY</h1>
+<p>Knowledge | Reading | Innovation</p>
+</div>
+
+<div class="navbar">
+<a href="#">Home</a>
+<a href="#">E-Books</a>
+<a href="#">FLN</a>
+<a href="#">Activities</a>
+<a href="#">Resources</a>
+<a href="#">Competitions</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</div>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="card">
+<h3>📘 E-Books</h3>
+<p>Subject-wise digital books and story collections.</p>
+<a href="#" class="btn">Open Section</a>
+</div>
+
+<div class="card">
+<h3>🧠 FLN Corner</h3>
+<p>Foundational Literacy & Numeracy resources.</p>
+<a href="#" class="btn">Explore</a>
+</div>
+
+<div class="card">
+<h3>🎯 Activities</h3>
+<p>Creative learning and book-based activities.</p>
+<a href="#" class="btn">View</a>
+</div>
+
+<div class="card">
+<h3>📂 Student Support</h3>
+<p>Study materials, worksheets & notes.</p>
+<a href="#" class="btn">Access</a>
+</div>
+
+<div class="card">
+<h3>🏆 Competitions</h3>
+<p>Reading challenges, quiz & events.</p>
+<a href="#" class="btn">Join</a>
+</div>
+
+<div class="card">
+<h3>📷 Gallery</h3>
+<p>Library events and celebrations photos.</p>
+<a href="#" class="btn">View</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 My School Digital Library Portal
+</div>
+
+</body>
+</html>
